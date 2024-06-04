@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/css/main.css">
+    <title>Document</title>
+</head>
+<body>
+        <nav class="navbar">
+            <ul class="navbar__menu">
+                <li ><a href="#elenco" id="link-elenco"> Elenco</a></li>
+                <li><a href="#direcao">Direção</a></li>
+            </ul>
+        </nav>
+
+        <!-- Hero -->
+        <section class="hero">
+            <div class="container">
+                <h1>LUCY</h1>
+                <p>LUCY é um filme de ação e ficção científica lançado em 2014. Dirigido por Luc Besson, o filme é estrelado por Scarlett Johansson no papel principal.</p>
+                <img src="./src/images/Lucy-banner-1.jpg" alt="Banner do Filme LUCY">
+            </div>
+        </section>
+
+        <!-- Seção de Elenco -->
+        <section id="TodoElenco" class="super-cast"> 
+        <section id="elenco" class="cast">
+            <div class="container elenco-container">
+                <div class="elenco-list">
+                    <h2 class="elenco-h2">Elenco</h2>
+                    <ul>
+                        <li data-actor="scarlett"><a href="#">Scarlett Johansson como Lucy</a></li>
+                        <li data-actor="freeman"><a href="#">Morgan Freeman como Professor Norman</a></li>
+                        <li data-actor="choi"><a href="#">Choi Min-sik como Sr. Jang</a></li>
+                        <!-- Adicione mais membros do elenco, se necessário -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <div class="actor-image-container">
+            <img id="scarlett" src="./src/assets/lucy-default-1920.jpg" alt="Scarlett Johansson">
+            <img id="freeman" src="./src/assets/morgan.jpg" alt="Morgan Freeman">
+            <img id="choi" src="./src/assets/026020.webp" alt="Choi Min-sik">
+        </div>
+    </section>
+
+        <!-- Seção de Direção -->
+        <section id="direcao" class="direction">
+            <div class="container">
+                <h2 class="direcao-h2">Direção</h2>
+                <p>O filme LUCY foi dirigido por Luc Besson, um renomado cineasta francês conhecido por seus filmes de ação e ficção científica, como "O Quinto Elemento" e "Nikita".</p>
+            </div>
+        </section>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./src/main.js"></script>
+</body>
+</html>
